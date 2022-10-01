@@ -1,0 +1,11 @@
+prefix=/home/projects/RADE/benchmark/gsl/GSL25
+exec_prefix=/home/projects/RADE/benchmark/gsl/GSL25
+libdir=/home/projects/RADE/benchmark/gsl/GSL25/lib
+includedir=/home/projects/RADE/benchmark/gsl/GSL25/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 2.5
+Libs: -L/home/projects/RADE/benchmark/gsl/GSL25/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/projects/RADE/benchmark/gsl/GSL25/include
